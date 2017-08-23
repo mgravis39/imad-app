@@ -7,5 +7,4 @@ element.innerHTML = 'New Text is being Loaded';
 var img = document.getElementById('madi');
 img.onclick = function () {
     img.style.marginLeft = '50px';
-    
     };
