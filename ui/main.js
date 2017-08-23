@@ -6,6 +6,6 @@ element.innerHTML = 'New Text is being Loaded';
 // Move the Image
 var img = document.getElementById('madi');
 img.onClick = function () {
-    img.style.text-align = left;
+    
     img.style.marginLeft = '300px';
     };
