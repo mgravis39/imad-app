@@ -9,7 +9,7 @@ var articles {
     articleOne
 }
 
-var content = {
+var articleOne = {
     title: 'Article One | Ravikumar',
     heading: 'Article One',
     date: '23 Aug 2017',
@@ -55,7 +55,8 @@ function createTemplate(data) {
 }
 
 app.get('/article-one', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
+  //res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
+    res.send(createTemplate(articleOne));
 });
 
 app.get('/article-two', function (req, res) {
