@@ -7,19 +7,19 @@ app.use(morgan('combined'));
 
 
 var articles = {
-articleOne: {
+'article-one': {
     title: 'Article One | Ravikumar',
     heading: 'Article One',
     date: '23 Aug 2017',
     content:  `Article One HTML Page contents comes here. Article One HTML Page contents comes here. Article One HTML Page contents comes here. Article One HTML Page contents comes here. `
 },
-articleTwo: {
+'article-two': {
     title: 'Article Two | Ravikumar',
     heading: 'Article Two',
     date: '23 Aug 2017',
     content:  `Article Two HTML Page contents comes here. Article Two HTML Page contents comes here. Article Two HTML Page contents comes here. Article Two HTML Page contents comes here. `
 },
-articleThree: {
+'article-three': {
     title: 'Article Three | Ravikumar',
     heading: 'Article Three',
     date: '23 Aug 2017',
