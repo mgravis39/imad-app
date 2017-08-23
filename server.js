@@ -19,7 +19,7 @@ function createTemplate(data) {
     var date = data.date;
     var content = data.content;
     
-    var htmlTemplate = `{
+    var htmlTemplate = `
         <!doctype html>
     <html>
         <head>
@@ -47,7 +47,7 @@ function createTemplate(data) {
             </script>
         </body>
     </html>
-    }`;
+    };
     return htmlTemplate;
 }
 
