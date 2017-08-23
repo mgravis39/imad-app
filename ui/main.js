@@ -6,5 +6,5 @@ element.innerHTML = 'New Text is being Loaded';
 // Move the Image
 var img = document.getElementById('madi');
 img.onclick = function () {
-    img.style.marginLeft = '100px';
+    img.style.marginLeft = '200px';
 }
