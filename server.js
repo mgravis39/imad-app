@@ -11,7 +11,7 @@ var articleOne = {
     heading: 'Article One',
     date: '23 Aug 2017',
     content:  `Article One HTML Page contents comes here. Article One HTML Page contents comes here. Article One HTML Page contents comes here. Article One HTML Page contents comes here. `
-}
+};
 
 function createTemplate(data) {
     var title = data.title;
