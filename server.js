@@ -9,19 +9,19 @@ app.use(morgan('combined'));
 var articles = {
 'article-one': {
     title: 'Article One | Ravikumar',
-    heading: 'Article One',
+    heading: 'Article One From Common Server Js',
     date: '23 Aug 2017',
     content:  `Article One HTML Page contents comes here. Article One HTML Page contents comes here. Article One HTML Page contents comes here. Article One HTML Page contents comes here. `
 },
 'article-two': {
     title: 'Article Two | Ravikumar',
-    heading: 'Article Two',
+    heading: 'Article Two From Common Server Js',
     date: '23 Aug 2017',
     content:  `Article Two HTML Page contents comes here. Article Two HTML Page contents comes here. Article Two HTML Page contents comes here. Article Two HTML Page contents comes here. `
 },
 'article-three': {
     title: 'Article Three | Ravikumar',
-    heading: 'Article Three',
+    heading: 'Article Three From Common Server Js',
     date: '23 Aug 2017',
     content:  `Article Three HTML Page contents comes here. Article Three HTML Page contents comes here. Article Three HTML Page contents comes here. Article Three HTML Page contents comes here. `
 }
